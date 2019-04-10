@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="dec.css">
+    <title></title>
+  </head>
+  <body>
+<table>
+
+<tr>
+  <th>Un</th>
+  <th>Deux</th>
+  <th>Trois</th>
+  <th>Quatre</th>
+</tr>
+
+<tr>
+
+<td>pain</td>
+<td>croissants</td>
+<td>fraisiers</td>
+<td>chouquettes</td>
+
+</tr>
+
+</table>
+
+<form class="test" action="tableau.html" method="post">
+
+<h1>Formulaire</h1>
+
+  <label for="pseudo"><h4>Pseudo</h4></label>
+<input type="text" name="pseudo" placeholder="pseudo">
+
+
+
+  <label for="mdp"><h4>Mot de passe</h4></label>
+<input type="password" name="mdp" placeholder="mot de passe">
+
+<h4>Civilité</h4>
+<label for="mr" class="inline">M.</label>
+<input class="civilite" type="radio" name="CSS" value="mr" id="mr" />
+<input class="civilite "type="radio" name="civilite" value="mme" id="mme" />
+<label for="mme" class="inline">Mme</label>
+
+<!--label sert à faire en sorte que lorsque l'on clique sur le titre il y a le curseur de texte dans la case-->
+
+<label for="nom"><h4>Nom</h4></label>
+<input type="text" name="pk" id="nom" placeholder="nom">
+
+<label for="prenom"><h4>Prénom</h4></label>
+<input type="text" name="ok" id="prenom" placeholder="prénom">
+
+
+
+<label for="adresse"><h4>adresse_postale</h4></label>
+<input type="text" name="" id="ap" placeholder="adresse">
+
+
+<fieldset>
+
+<legend>Photo</legend>
+      <label for="avatar">Choisissez votre avatar : </label>
+      <input type="file" name="avatar" id="avatar" /><br />(Taille max:10Ko)<br /><br />
+      <label for="description">Description :</label><textarea cols="40" rows="4" name="description" id="description">Veuillez entrer votre déscription ici</textarea><br />
+    	<p class="text-center"><input  type="submit" value="Valider" name="valider" /></p>
+
+</fieldset>';
+
+
+</form>
+  </body>
+</html>

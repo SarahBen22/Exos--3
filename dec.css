@@ -1,0 +1,14 @@
+body{
+  background-color: #BA55D3;
+}
+
+table{
+  font-size: 25px;
+  border: 4px solid #811453;
+  margin-left:35%;
+}
+
+th{
+  border-bottom: 2px solid black;
+
+}
